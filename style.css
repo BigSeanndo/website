@@ -34,11 +34,6 @@ header{
 .logo img{
     padding:20px;
 }
-.logo a{
-	text-decoration: none;
-	font-size: 30px;
-	font-family: Canterbury;
-}
 	
 nav{
     
@@ -59,7 +54,7 @@ nav a:hover{
 	color:grey;
 }
 .banner-area{
-	background-image: url(images/stock.jpg);
+	background-image: url(stock.jpg);
 	background-size: cover;
 	background-position: center center;
 	top: 100px;
