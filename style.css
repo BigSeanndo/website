@@ -1,0 +1,109 @@
+@font-face {
+    font-family:'Canterbury';
+    scr: url(fonts/Canterbury.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+}
+.wrapper{
+	text-decoration:none;
+	color:white;
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: black;
+	position: fixed;
+}
+.logo{
+	width: 30%;
+	float: left;
+	text-align: left;
+	line-height: 100px;
+}
+
+.logo img{
+    padding:20px;
+}
+.logo a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Canterbury;
+}
+	
+nav{
+    
+	float: right;
+	line-height: 100px;
+}
+nav a{
+	text-decoration: none;
+	letter-spacing:4px;
+	font-size: 20px;
+	color:white;
+	padding: 36px;
+	margin: 0 1px;
+	font-weight: 500;
+}
+nav a:hover{
+	background:#2fb572;
+	color:grey;
+}
+.banner-area{
+	background-image: url(images/stock.jpg);
+	background-size: cover;
+	background-position: center center;
+	top: 100px;
+	height: 60vh;
+	width:100%;
+	position:fixed;
+}
+.banner-area:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: .5;
+	z-index: -1;
+}
+.banner-area h2{
+	padding-top:14%;
+	font-size: 80px;
+	color: black;
+}
+.content-area{
+	width:100%;
+	height:1000px;
+	position: relative;
+	background-color: black;
+	top:500px;
+}
+.content-area h4{
+	font-size: 30px;
+	margin: 0;
+	padding-top: 30px;
+	color:white;
+}
+.content-area p{
+	color:white;
+	padding: 2% 0;
+	line-height: 30px;
+	text-align: center;
+}
+ul{
+    
+    right:200px;
+}
